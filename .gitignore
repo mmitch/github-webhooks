@@ -1,0 +1,9 @@
+# generic ignores
+*~
+json/
+
+# my personal ignores because $GIT_ROOT == $HOME
+.*
+bin/
+git/
+perl5/
