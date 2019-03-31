@@ -1,0 +1,11 @@
+language: perl
+
+# newer Perl -> fewer dependencies to install for the Perl modules -> faster
+perl:
+    - "5.22"
+
+# we don't build anything
+install: true
+
+# run tests
+script: ./check_scripts.sh
